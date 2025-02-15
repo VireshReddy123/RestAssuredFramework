@@ -26,7 +26,7 @@ public class userEndPoints {
 		
 		Response res =given()
 				.pathParam("username", username)
-				
+			
 				.when()
 				.get(Routes.get_Url);
 		return res;
