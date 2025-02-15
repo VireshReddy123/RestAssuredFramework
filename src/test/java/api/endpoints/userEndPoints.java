@@ -17,7 +17,7 @@ public class userEndPoints {
 	
 	.when()
 	.post(Routes.post_Url);
-	
+
 	return res;
 	
 	}
@@ -29,7 +29,6 @@ public class userEndPoints {
 				
 				.when()
 				.get(Routes.get_Url);
-		
 		return res;
 		
 	}
