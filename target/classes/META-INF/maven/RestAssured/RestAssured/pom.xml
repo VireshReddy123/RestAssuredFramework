@@ -1,9 +1,7 @@
-
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>RestAssuredProject</groupId>
-  <artifactId>RestAssuredProject</artifactId>
-
+  <groupId>RestAssured</groupId>
+  <artifactId>RestAssured</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
@@ -69,46 +67,7 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-
-  <!-- RestAssured Core -->
-    <dependency>
-        <groupId>io.rest-assured</groupId>
-        <artifactId>rest-assured</artifactId>
-        <version>5.4.0</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- JSON Path (for JSON validation) -->
-    <dependency>
-        <groupId>io.rest-assured</groupId>
-        <artifactId>json-path</artifactId>
-        <version>5.4.0</version>
-    </dependency>
-
-    <!-- XML Path (for XML validation) -->
-    <dependency>
-        <groupId>io.rest-assured</groupId>
-        <artifactId>xml-path</artifactId>
-        <version>5.4.0</version>
-    </dependency>
-
-    <!-- Jackson Databind (for JSON serialization/deserialization) -->
-    <dependency>
-        <groupId>com.fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>2.16.0</version>
-    </dependency>
-
-    <!-- TestNG (if you are using TestNG for testing) -->
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.8.0</version>
-        <scope>test</scope>
-    </dependency>
-    
-    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
- <dependency>
+<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>5.4.0</version>
@@ -121,21 +80,7 @@
     <version>5.4.0</version>
 </dependency>
 
- 
-<dependency>
-        <groupId>com.aventstack</groupId>
-        <artifactId>extentreports</artifactId>
-        <version>5.1.1</version>
-    </dependency>
-    
-    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
-<dependency>
-    <groupId>com.github.javafaker</groupId>
-    <artifactId>javafaker</artifactId>
-    <version>1.0.2</version>
-</dependency>
 
-  
-  
-   </dependencies>
+
+  </dependencies>
 </project>

@@ -2,7 +2,6 @@ package api.endpoints;
 
 public class Routes {
 	
-	
 	// Appilication basic URL.
 	
 	public static String Basic_Url ="https://petstore.swagger.io/v2";
@@ -13,8 +12,5 @@ public class Routes {
 	public static String get_Url =Basic_Url+"/user/{username}";
 	public static String update_Url =Basic_Url+"/user/{username}";
 	public static String delete_Url =Basic_Url+"/user/{username}";
-
-	
-
 
 }
