@@ -62,16 +62,6 @@ public class endpoints {
 		return res;
 	}
 	
-	public static  Response getUser1(String FirstName){
-		 
-		Response res= given()
-		 .pathParam("FirstName", FirstName)
-		 
-		 .when()
-		 .get(Routes.get_Url1);
-		  
-		return res;
-	}
-	
+	 
 	
 }

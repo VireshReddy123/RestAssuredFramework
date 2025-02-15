@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>RestassuredFramework</name>
+=======
+	<name>RestAssuredFramework</name>
+>>>>>>> 1033b8419f1b9cb04fa4bc1c17934f9a833b28a6
 	<comment></comment>
 	<projects>
 	</projects>
